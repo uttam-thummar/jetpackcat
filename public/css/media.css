@@ -1,0 +1,516 @@
+@media only screen and (max-width:1800px){
+    .banner-logo > img {
+        max-height: 60px;
+    }
+    .banner-after-logo > img {
+        max-height: 50px;
+    }
+}
+@media only screen and (max-width:1639px){
+    .banner-content .banner-top-content {
+        padding-top: 100px;
+    }
+    .skymap--box {
+        max-width: 410px;
+        padding: 30px 25px;
+    }
+    .skymap--box .desc {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width:1499px){
+    .banner-content .banner-top-content {
+        padding-top: 85px;
+    }
+    .banner-logo > img {
+        max-height: 50px;
+    }
+    .banner-after-logo > img {
+        max-height: 40px;
+    }
+
+    .mint-section {
+        padding-bottom: 140px;
+    }
+    .earth-section {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .faq-section {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .footer {
+        padding-top: 140px;
+    }
+    .weekly--box .section-content .desc p {
+        font-size: 26px;
+    }
+
+    .rarity-box > h4 {
+        font-size: 45px;
+        line-height: 30px;
+    }
+
+    .btn {
+        border-width: 8px;
+    }
+    .btn-primary {
+        font-size: 54px;
+        line-height: 50px;
+    }
+    .community-copy .btn {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .section-title h2 {
+        font-size: 62px;
+        line-height: 52px;
+    }
+    .beings-box .section-title h2 {
+        font-size: 62px;
+    }
+    .faq-section .section-title h2 {
+        font-size: 62px;
+        line-height: 72px;
+    }
+    .weekly--box .section-title h2 {
+        font-size: 62px;
+        line-height: 52px;
+    }
+    .user-info h2 {
+        font-size: 45px;
+    }
+    .banner-socials ul li a {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+
+    .weekly--box, .rarity--box, .beings-box, .mintbox,
+    .skymap--box {
+        border-width: 10px;
+        box-shadow: 10px 10px 0px var(--dark);
+    }
+    .faq-section .accordion-button {
+        padding: 30px 30px;
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width:1299px){
+    .banner-content {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .banner-logo > img {
+        max-height: 45px;
+    }
+    .banner-after-logo > img {
+        max-height: 35px;
+    }
+    .jpi-navbar {
+        max-width: 768px;
+    }
+    .jpi-navbar .stellarnav > ul > li > a{
+        padding: 20px 20px;
+    }
+    .header.fixed .jpi-navbar .stellarnav > ul > li > a {
+        padding: 10px 20px 15px;
+    }
+    .jpi-navbar .stellarnav > ul > li > a {
+        font-size: 30px;
+        text-shadow: 0px 4px 0px var(--dark);
+        line-height: 22px;
+    }
+
+    .mint-section,
+    .earth-section,
+    .team-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .rarity-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .weekly-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .skymap-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .faq-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .community-section {
+        padding-top: 100px;
+    }
+
+    .btn-primary {
+        font-size: 36px;
+        line-height: 30px;
+        border-radius: 40px;
+    }
+    .mintbox {
+        max-width: 768px;
+        border-radius: 50px;
+        padding: 40px;
+    }
+    .section-title {
+        margin-bottom: 40px;
+    }
+    .section-content .befor-sc{
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+    .befor-btn-desc p {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .befor-btn-desc h4 {
+        font-size: 40px;
+    }
+
+    .beings-box {
+        max-width: 768px;
+        border-radius: 50px;
+        padding: 40px;
+    }
+    .earth-banner img {
+        max-width: unset;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:1199px){
+    .banner-content .banner-top-content {
+        padding-top: 60px;
+    }
+    .banner-content .banner-top-content {
+        padding-top: 70px;
+    }
+    .banner-logo > img {
+        max-height: 40px;
+    }
+    .banner-after-logo > img {
+        max-height: 30px;
+    }
+    .banner-socials ul li a {
+        width: 70px;
+        height: 70px;
+        padding: 20px;
+    }
+    .banner-socials ul li a > img {
+        max-height: 30px;
+    }
+
+    .mint-section, .earth-section, .team-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .rarity-box > h4 {
+        font-size: 30px;
+        line-height: 22px;
+    }
+    .rarity--box {
+        border-radius: 50px;
+        padding: 35px;
+    }
+    .weekly--box {
+        border-radius: 50px;
+        padding: 35px;
+    }
+
+    .section-title h2 {
+        font-size: 52px;
+        line-height: 42px;
+    }
+    .beings-box .section-title h2 {
+        font-size: 52px;
+    }
+    .faq-section .section-title h2 {
+        font-size: 52px;
+        line-height: 42px;
+    }
+    .weekly--box .section-title h2 {
+        font-size: 52px;
+        line-height: 42px;
+    }
+
+    .team-topsection {
+        margin-bottom: 30px;
+    }
+    .user-info h2 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .user-copy {
+        font-size: 22px;
+    }
+    .faq-section .accordion-body {
+        padding: 20px 30px 30px;
+        font-size: 22px;
+    }
+    .skymap--box .desc p + p {
+        margin-top: 20px;
+    }
+    .justify-content-between.skymap-row {
+        justify-content: center !important;
+    }
+    .skymap-col {
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:1099px){
+    .banner-content .banner-top-content {
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width:991px){
+    .banner-img > img {
+        height: 640px;
+        object-fit: cover;
+        object-position: top center;
+    }
+    .faq-section .accordion {
+        max-width: 100%;
+    }
+
+    .community-banner-left,
+    .community-banner-right {
+        max-width: calc(50% - 100px);
+    }
+    .community-copy .btn {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .weekly-image.text-end {
+        text-align: center !important;
+    }
+    .weekly--box {
+        margin-bottom: 30px;
+    }
+    .rarity-none{
+        display: none;
+    }
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 40%;
+        background-position: center bottom;
+    }
+    .footer-social {
+        margin-bottom: 50px;
+    }
+    .footer-logo {
+        margin-bottom: 50px;
+    }
+    .footer-logo > a > img:first-child {
+        max-height: 28px !important;
+    }
+    .footer-logo > a > img {
+        max-height: 25px;
+    }
+    .footer-social li {
+        margin: 0px 20px;
+    }
+    .footer-social li a img {
+        max-height: 35px;
+    }
+    .copyright {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:767px){
+    .banner-socials {
+        padding: 0px 30px 10px 0px;
+    }
+    .banner-socials ul li a {
+        width: 40px;
+        height: 40px;
+        padding: 6px 2px 2px 0px;
+    }
+    .banner-socials ul li a > img {
+        max-height: 25px;
+    }
+    .jpi-navbar .stellarnav > ul > li > a {
+        padding: 15px 8px 20px;
+        font-size: 22px;
+        line-height: 16px;
+        text-shadow: 0px 2px 0px var(--dark);
+    }
+    .header.fixed .jpi-navbar .stellarnav > ul > li > a{
+        padding: 12px 8px 18px;
+    }
+    .footer {
+        padding-bottom: 40%;
+        background-position: bottom center;
+        background-size: cover;
+    }
+    .jpi-navbar {
+        max-width: 518px;
+    }
+    .footer-social li {
+        margin: 0px 20px;
+    }
+    .footer-social li a img {
+        max-height: 30px;
+    }
+    .copyright {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:650px){
+    .jpi-navbar {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width:575px){
+    .btn {
+        padding: 10px 14px 10px 18px;
+        border-radius: 20px;
+        border-width: 6px;
+    }
+    .btn-primary {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .section-title {
+        margin-bottom: 26px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+        line-height: 30px;
+        text-shadow: 0px 4px 0px var(--dark);
+    }
+    .beings-box .section-title h2 {
+        font-size: 36px;
+    }
+    .faq-section .section-title h2 {
+        font-size: 36px;
+        line-height:30px;
+    }
+    .weekly--box .section-title h2 {
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .weekly--box .section-content .desc p{
+        font-size: 20px;
+    }
+
+    .weekly--box, .rarity--box, .beings-box, .mintbox, .skymap--box {
+        border-width: 8px;
+        box-shadow: 4px 4px 0px var(--dark);
+    }
+
+    .befor-btn-desc h4 {
+        font-size: 30px;
+    }
+    .weekly--box .section-title {
+        margin-bottom: 30px;
+    }
+    .section-content .desc p {
+        margin-bottom: 26px;
+    }
+    .weekly--box {
+        border-radius: 40px;
+        padding: 30px 20px;
+    }
+
+    .mint-section, .earth-section, .team-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .community-section {
+        padding-top: 60px;
+        padding-bottom: 35%;
+    }
+    .user-info h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .user-copy {
+        font-size: 20px;
+    }
+    .faq-section,
+    .skymap-section,
+    .weekly-section,
+    .rarity-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .faq-section .accordion-item {
+        border-width: 2px;
+    }
+    .faq-section .accordion-button {
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+    .faq-section .accordion-button::after {
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+    }
+    .faq-section .accordion-body {
+        padding: 10px 20px 20px;
+        font-size: 16px;
+    }
+    .community-banner-left, .community-banner-right {
+        max-width: calc(50% - 50px);
+    }
+    .rarity--box {
+        text-align: center;
+        padding: 25px 20px;
+    }
+    .rarity-box > img {
+        height: 70px;
+        margin: 0 auto 15px;
+    }
+    .mintbox,
+    .beings-box {
+        padding: 25px 20px;
+    }
+
+    .banner-content {
+        padding: 40px 20px;
+    }
+    .banner-content .banner-top-content {
+        padding-top: 20px;
+    }
+    .banner-img > img {
+        height: 580px;
+        object-fit: cover;
+        object-position: top center;
+    }
+
+    .footer {
+        padding-bottom: 70%;
+    }
+    .footer-logo > a > img {
+        max-height: 20px;
+    }
+    .footer-logo {
+        padding: 0px 30px;
+    }
+    .footer-social li {
+        margin: 0px 20px;
+    }
+    .footer-social li a img {
+        max-height: 30px;
+    }
+    .copyright {
+        font-size: 20px;
+    }
+}

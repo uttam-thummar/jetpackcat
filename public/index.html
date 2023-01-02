@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>JetPack Cat NFT Play-2-Earn Edition</title>
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/stellarnav.min.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/theme.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/media.css">
+</head>
+
+<body>
+  <header id="header" class="header ">
+    <div class="container">
+      <nav class="jpi-navbar">
+        <div class="jpi-navmenu">
+          <a href="#" class="menu-toggle full"><span></span><span></span><span></span> </a>
+          <div class="stellarnav">
+            <ul class="nav-menu">
+              <li class="menu-item current-menu-item current_page_item">
+                <a href="#mint-slide"><span>Mint</span></a>
+              </li>
+              <li class="menu-item">
+                <a href="#weekly-slide"><span>Game</span></a>
+              </li>
+              <li class="menu-item">
+                <a href="#skymap-slide"><span>Skymap</span></a>
+              </li>
+              <li class="menu-item">
+                <a href="#team-slide"><span>Team</span></a>
+              </li>
+              <li class="menu-item">
+                <a href="#faq-slide"><span>Faqs</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- End of header -->
+  <main class="mainwrapp">
+    <section id="banner-slide" class="banner-section">
+      <div class="banner-img">
+        <img class="img-fluid" src="%PUBLIC_URL%/images/Lightningcat.png" alt="">
+      </div>
+      <div class="banner-content">
+        <div class="banner-top-content text-center">
+          <div class="banner-logo">
+            <img class="img-fluid" src="%PUBLIC_URL%/images/logo.png" alt="">
+          </div>
+          <div class="banner-after-logo">
+            <img class="img-fluid" src="%PUBLIC_URL%/images/after-logo.png" alt="">
+          </div>
+        </div>
+        <div class="banner-socials">
+          <ul class="d-flex align-items-center">
+            <li class="df-item">
+              <a href="javascript:void(0);">
+                <img class="img-fluid" src="%PUBLIC_URL%/images/discord.png" alt="">
+              </a>
+            </li>
+            <li class="df-item">
+              <a href="javascript:void(0);">
+                <img class="img-fluid" src="%PUBLIC_URL%/images/insta.png" alt="">
+              </a>
+            </li>
+            <li class="df-item">
+              <a href="javascript:void(0);">
+                <img class="img-fluid" src="%PUBLIC_URL%/images/twitter.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="mint-slide" class="mint-section" style="background-image: url(%PUBLIC_URL%/images/mint-bg.png);">
+      <div class="container">
+        <div class="mintbox">
+          <div class="section-title">
+            <h2 class="title">mint</h2>
+          </div>
+          <div class="section-content">
+            <div class="befor-sc">
+              WHITELIST MINT: LIVE <br>
+              PUBLIC SALE: TBD
+            </div>
+            <div class="befor-button">
+              <a class="btn btn-primary" href="#"> <span>connect wallet</span> </a>
+            </div>
+            <div class="befor-btn-desc">
+              <p>Please connect wallet to mint</p>
+              <p>SUPPLY: 7777</p>
+              <h4>PRE-MINT: 0.04e</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section id="mint-slide" class="mint-section" style="background-image: url(%PUBLIC_URL%/images/mint-bg.png);">
+      <div class="container">
+        <div id="root">
+
+        </div>
+      </div>
+    </section>
+    <section id="earth-slide" class="earth-section">
+      <div class="earth-banner marquee-container">
+        <div class="marquee"
+          style="--play: running; --direction: normal; --duration: 64s; --delay: 0s; --iteration-count: infinite;">
+          <img class="img-fluid-" src="%PUBLIC_URL%/beings-bg.jpg" alt="">
+        </div>
+        <div class="marquee"
+          style="--play: running; --direction: normal; --duration: 64s; --delay: 0s; --iteration-count: infinite;">
+          <img class="img-fluid-" src="%PUBLIC_URL%/images/beings-bg.jpg" alt="">
+        </div>
+      </div>
+      <div class="container">
+        <div class="beings-box">
+          <div class="section-title">
+            <h2>Hi, earth beings!</h2>
+          </div>
+          <div class="section-content">
+            <div class="desc">
+              <p>YOU WANNA GO TO THE MOON? NOT WITHOUT JETPACK CAT, DUH!</p>
+              <p>Jetpack Cat is a 7,777 NFTs collection minted on the Ethereum Blockchain. Each Jetpack Cat is equipped
+                with a special designed Jetpack system that gives them precise control to travel to the space or until
+                the gas tank empty.</p>
+              <p>Our NFT holders get access to the weekly play-2-earn tournaments to compete with other Jetpack Cats TO
+                WIN ETH.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="rarity-slide" class="rarity-section" style="background-image: url(%PUBLIC_URL%/images/rarity-bg.png);">
+      <div class="container-fluid">
+        <div class="row align-items-end justify-content-between">
+          <div class="col-xl-4 col-lg-4 rarity-none">
+            <div class="rarity-image">
+              <img class="img-fluid" src="%PUBLIC_URL%/images/BruceCat.png" alt="">
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-8">
+            <div class="rarity--box">
+              <div class="section-title">
+                <h2>Rarity</h2>
+              </div>
+              <div class="section-content">
+                <div class="desc">
+                  <p>POWERFUL JETPACKS, exotic species, ridiculous SUNGLASSES and SURREAL BACKGROUNDS. These are some of
+                    the things THAT YOU WILL FIND ON YOUR JETPACKCAT NFT.</p>
+                </div>
+                <div class="row ">
+                  <div class="col-md-3 col-sm-4 col-6">
+                    <div class="rarity-box">
+                      <img class="img-fluid" src="%PUBLIC_URL%/images/rarity/sunglass.png" alt="">
+                      <h4>33+</h4>
+                      <p>sunglasses</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-6">
+                    <div class="rarity-box">
+                      <img class="img-fluid" src="%PUBLIC_URL%/images/rarity/mouths.png" alt="">
+                      <h4>24+</h4>
+                      <p>mouths</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-6">
+                    <div class="rarity-box">
+                      <img class="img-fluid" src="%PUBLIC_URL%/images/rarity/jetpacks.png" alt="">
+                      <h4>45+</h4>
+                      <p>jetpacks</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-6">
+                    <div class="rarity-box">
+                      <img class="img-fluid" src="%PUBLIC_URL%/images/rarity/hats.png" alt="">
+                      <h4>28+</h4>
+                      <p>hats</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-6">
+                    <div class="rarity-box">
+                      <img class="img-fluid" src="%PUBLIC_URL%/images/rarity/flames.png" alt="">
+                      <h4>30+</h4>
+                      <p>flames</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-6">
+                    <div class="rarity-box">
+                      <img class="img-fluid" src="%PUBLIC_URL%/images/rarity/eyes.png" alt="">
+                      <h4>28+</h4>
+                      <p>eyes</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-6">
+                    <div class="rarity-box">
+                      <img class="img-fluid" src="%PUBLIC_URL%/images/rarity/skins.png" alt="">
+                      <h4>25+</h4>
+                      <p>skins</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-6">
+                    <div class="rarity-box">
+                      <img class="img-fluid" src="%PUBLIC_URL%/images/rarity/backgrounds.png" alt="">
+                      <h4>20+</h4>
+                      <p>backgrounds</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="desc">
+                  <p>* 25 unique 1/1 LEGENDARY WILL BE released as part of the collection.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="weekly-slide" class="weekly-section" style="background-image: url(%PUBLIC_URL%/images/weekly-bg.jpg);">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-xl-7 col-lg-8">
+            <div class="weekly--box">
+              <div class="section-title">
+                <h2>weekly p2e <br>tournaments</h2>
+              </div>
+              <div class="section-content">
+                <div class="desc">
+                  <p>OUR MISSION IS TO BRING OUR COMMUNITY TOGETHER THROUGH RETRO-STYLE ARCADE GAMES. We plan to bring
+                    out a series of unique play-to-earn games designed to capture the essence of our youth, under
+                    JETPACKCAT.IO. The first of these games is JETPACK CAT MOON TALE, which is already in development.
+                  </p>
+                  <p class="mb-0">In JETPACK CAT MOON TALE, you will control YOUR UNIQUE JETPACK CAT NFT to COMPETE WITH
+                    OTHER ONLINE PLAYERS.</p>
+                  <p>Along the way, they will encounter an array of obstacles, as well as $MEOW COINS AND GAS TANK. The
+                    game's difficulty, based on both FUEL TANK and frequency of obstacles, will DECREAS the SPEED your
+                    JETPACK CAT, </p>
+                  <p class="mb-0">Check out the preview on the right!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4">
+            <div class="weekly-image text-end">
+              <img class="img-fluid" src="%PUBLIC_URL%/images/weekly-phone.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skymap-slide" class="skymap-section" style="background-image: url(%PUBLIC_URL%/images/skymap-bg.png);">
+      <div class="container-fluid">
+        <div class="section-title text-center">
+          <h2>Skymap</h2>
+        </div>
+        <div class="row justify-content-between skymap-row">
+          <div class="col-xl-4 col-md-6 skymap-col">
+            <div class="skymap--box skymap--orange">
+              <div class="desc">
+                <p>PFP, Play-2-earn game then what's next?</p>
+                <p>Starting with a clothing line, we are taking over the street and MEOWTAVERSE one step at a time.</p>
+                <p>How about a JetPack Cat alarm clock that actually launches from your nightstand?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 skymap-col">
+            <div class="skymap--box skymap--blue">
+              <div class="desc">
+                <p>20% IG GAME FILTER LAUNCHED.</p>
+                <p>30% PREVIEW OFJETPACKCAT 3D</p>
+                <p>40% JetPackCat.io clothing pre order open to our NFT holders</p>
+                <p>80% Fund the community wallet with 10 ETH</p>
+                <p>100% JetPackCat.io weekly tournament activation. Top 10 players to win ETH DIRECTLY DROPPED TO THEIR
+                  WALLET.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 skymap-col">
+            <div class="skymap--box skymap--pink">
+              <div class="desc">
+                <p>120% JETPACKCAT 3D INITIALED</p>
+                <p>140% $MEOW COIN LAUNCHED. EARN $MEOW EVEN IF YOU DOn’t WIN our WEEKLY TOURNAMENTS.</p>
+                <p>160% BREEDING OF 2ND GENERATION JETPACK CAT. ONLY FOR JPC HOLDERS.</p>
+                <p>200% JETPACK CAT DOA & LIVE EVENTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team-slide" class="team-section" style="background-image: url(%PUBLIC_URL%/images/team-bg.jpg);">
+      <div class="container-fluid">
+        <div class="team-topsection">
+          <div class="section-title">
+            <h2>Team</h2>
+          </div>
+          <div class="section-content">
+            <p class="mb-0">This is the TEAM of collaborators that get the dirty work done.</p>
+            <p class="mb-0">Note: FYI, there might be a real cat in here.</p>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="swiper myteam">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="user-icon">
+                    <img class="img-fluid" src="%PUBLIC_URL%/images/team/11_00.gif" alt="">
+                  </div>
+                  <div class="user-info">
+                    <h2>Yoshifuji</h2>
+                    <div class="user-copy">
+                      <p>Top 100 DJ road manager. Currently "Stuck" in Cabos</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="user-icon">
+                    <img class="img-fluid" src="%PUBLIC_URL%/images/team/1343.gif" alt="">
+                  </div>
+                  <div class="user-info">
+                    <h2>Yoshifuji</h2>
+                    <div class="user-copy">
+                      <p>Video game concept artist for 12 years. in between Tokyo/Dubai. @Hiroshiroshi</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="user-icon">
+                    <img class="img-fluid" src="%PUBLIC_URL%/images/team/1493.gif" alt="">
+                  </div>
+                  <div class="user-info">
+                    <h2>oxvee</h2>
+                    <div class="user-copy">
+                      <p>Blockchain developer. Sold Bored Ape early to fund this project.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="user-icon">
+                    <img class="img-fluid" src="%PUBLIC_URL%/images/team/1555.gif" alt="">
+                  </div>
+                  <div class="user-info">
+                    <h2>SEB</h2>
+                    <div class="user-copy">
+                      <p>Top 100 DJ road manager. Currently "Stuck" in Cabos</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="user-icon">
+                    <img class="img-fluid" src="%PUBLIC_URL%/images/team/1893.gif" alt="">
+                  </div>
+                  <div class="user-info">
+                    <h2>L30</h2>
+                    <div class="user-copy">
+                      <p>Core team members of 2 sold out projects. In charge of artist collaboration.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq-slide" class="faq-section">
+      <div class="container-fluid">
+        <div class="section-title text-center">
+          <h2>FAQs</h2>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <span>Where can i purchase an NFT?</span>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span> How much will it cost?</span>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span>How do i get access to whitelist?</span>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <span>When is the Presale?</span>
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <span>When is the Public Sale?</span>
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="community-slide" class="community-section"
+      style="background-image: url(%PUBLIC_URL%/images/community-bg.jpg);">
+      <div class="community-banner-left">
+        <img class="img-fluid" src="%PUBLIC_URL%/images/comm-left.png" alt="">
+      </div>
+      <div class="community-banner-right">
+        <img class="img-fluid" src="%PUBLIC_URL%/images/comm-right.png" alt="">
+      </div>
+      <div class="container">
+        <div class="community-copy">
+          <div class="section-title">
+            <h2>JOIN THE COMMUNITY</h2>
+          </div>
+          <div class="section-content">
+            <div class="desc">
+              <p>Join our community and PAVE the road for JetPackCat's future. Grab a JetPack and fly with us. After
+                all, how do you reach the moon without a JetPackCat?</p>
+            </div>
+            <div class="cc-button">
+              <a class="btn btn-primary" href="#">Join Discord</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- End of Main wrapp -->
+  <footer id="footer" class="footer" style="background-image: url(%PUBLIC_URL%/images/footer-bg.jpg);">
+    <div class="container">
+      <div class="footer-info">
+        <div class="footer-logo">
+          <a href="#">
+            <img class="img-fluid" src="%PUBLIC_URL%/images/logo.png" alt="">
+            <img class="img-fluid" src="%PUBLIC_URL%/images/after-logo.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="footer-social">
+        <ul class="d-flex align-items-center">
+          <li class="df-item">
+            <a href="javascript:void(0);">
+              <img class="img-fluid" src="%PUBLIC_URL%/images/discord.png" alt="">
+            </a>
+          </li>
+          <li class="df-item">
+            <a href="javascript:void(0);">
+              <img class="img-fluid" src="%PUBLIC_URL%/images/insta.png" alt="">
+            </a>
+          </li>
+          <li class="df-item">
+            <a href="javascript:void(0);">
+              <img class="img-fluid" src="%PUBLIC_URL%/images/twitter.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <span>All rights reserved 2022</span>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+
+  <script src="%PUBLIC_URL%/js/jquery-3.6.0.js"></script>
+  <script src="%PUBLIC_URL%/js/bootstrap.bundle.min.js"></script>
+  <script src="%PUBLIC_URL%/js/stellarnav.min.js"></script>
+  <script src="%PUBLIC_URL%/js/swiper-bundle.min.js"></script>
+  <script src="%PUBLIC_URL%/js/theme.js"></script>
+</body>
+
+</html>
